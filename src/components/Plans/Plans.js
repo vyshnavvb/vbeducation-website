@@ -5,7 +5,7 @@ function Plans() {
   const planData = [
     {
       title: "Regular Member",
-      price: "10$",
+      price: "1000rs",
       duration: "/month",
       color: "#fff",
       features: [
@@ -18,7 +18,7 @@ function Plans() {
     },
     {
       title: "Premium Member",
-      price: "50$",
+      price: "2000rs",
       duration: "/month",
       color: "#6793AC",
       features: [
@@ -31,7 +31,7 @@ function Plans() {
     },
     {
       title: "Exclusive Member",
-      price: "100$",
+      price: "300rs",
       duration: "/month",
       color: "#fff",
       features: [

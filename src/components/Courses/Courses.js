@@ -9,22 +9,22 @@ function Courses() {
   const courseData = [
     {
       title: "AI Development",
-      description: "Master AI Development",
+      description: "Master in AI Development",
       image: ai,
     },
     {
       title: "Digital marketing",
-      description: "Master AI Development",
+      description: "Master in Digital marketing",
       image: dg,
     },
     {
       title: "Software Development",
-      description: "Master AI Development",
+      description: "Master in Software Developmen",
       image: sd,
     },
     {
       title: "Ethical Hacking",
-      description: "Master AI Development",
+      description: "Master in Ethical Hacking",
       image: hacker,
     },
   ];
