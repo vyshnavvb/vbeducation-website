@@ -1,5 +1,5 @@
 import React from "react";
-import "./Plans.css"
+import "./Plans.css";
 
 function Plans() {
   const planData = [
@@ -31,7 +31,7 @@ function Plans() {
     },
     {
       title: "Exclusive Member",
-      price: "300rs",
+      price: "3000rs",
       duration: "/month",
       color: "#fff",
       features: [
@@ -65,7 +65,7 @@ function Plans() {
               </h2>
             </div>
             <div className="services">
-              <ul >
+              <ul>
                 {data.features.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}

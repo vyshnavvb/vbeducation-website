@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import footer from "../../assets/img/footer.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -15,9 +16,8 @@ function Footer() {
               <h2>VB Educations</h2>
             </div>
             <p>
-              An educational consultant is a professional who provides
-              suggestions and feedback to education professionals, students and
-              their parents.
+              VB education is a professional who provides suggestions and
+              feedback to education professionals, students and their parents.
             </p>
           </div>
           <div className="footer-box">
@@ -41,9 +41,15 @@ function Footer() {
             <div className="footer-title">
               <h4>Quick Links</h4>
               <ui className="footer-links">
-                <li>About US</li>
-                <li>contact</li>
-                <li>Terms and conditions</li>
+                <li>
+                  <Link to="/aboutUs">About US</Link>
+                </li>
+                <li>
+                  <Link to="/contact">contact</Link>
+                </li>
+                <li>
+                  <Link to="/terms">Terms and conditions</Link>
+                </li>
               </ui>
             </div>
           </div>
