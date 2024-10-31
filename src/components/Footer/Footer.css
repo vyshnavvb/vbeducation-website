@@ -11,6 +11,7 @@
   justify-content: space-between;
   column-gap: 2rem;
   background-color: #eeeaff;
+  padding-top: 50px;
 }
 .footer-box {
   width: 30%;
