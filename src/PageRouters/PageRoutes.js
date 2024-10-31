@@ -13,7 +13,7 @@ function PageRoutes() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/vb-education-react-website.git" element={<Home />} />
+        <Route path="/vb-education-react-website" element={<Home />} />
         <Route path="/services" element={<Plans />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/aboutUs" element={<AboutUs />} />
