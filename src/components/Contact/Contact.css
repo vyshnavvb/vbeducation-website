@@ -1,4 +1,4 @@
-/* ContactPage.css */
+
 
 .contact-body {
   font-family: Arial, sans-serif;
@@ -48,6 +48,7 @@ input[type="email"] {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  margin-top: 5px;
 }
 
 .cbutton:hover {
