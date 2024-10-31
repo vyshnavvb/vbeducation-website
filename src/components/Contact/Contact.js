@@ -22,8 +22,8 @@ const ContactPage = () => {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div>
-          <label>Email:</label>
+        <div className="clabel">
+          <label className="clabel">Email:</label>
           <input
             type="email"
             value={email}

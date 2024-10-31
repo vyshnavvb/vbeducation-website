@@ -42,10 +42,10 @@ function Footer() {
               <h4>Quick Links</h4>
               <ui className="footer-links">
                 <li>
-                  <Link to="/aboutUs">About US</Link>
+                  <Link to="/aboutUs">About Us</Link>
                 </li>
                 <li>
-                  <Link to="/contact">contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
                 <li>
                   <Link to="/terms">Terms and conditions</Link>
